@@ -5,7 +5,9 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>New york Time</title>
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
+    title>New york Time</title>
   </head>
   <body>
 
@@ -24,34 +26,40 @@
 
 
 
-            <div id = "input" class="row">
+            <div id = "input form" class="row">
                 <div class="col-lg-10">
                   
                     <form>
                         <div class="form-group">
-                          <label for="SearchTerm">Search terms</label>
-                          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                          <label for="SearchTerm" >Search terms</label>
+                          <input type="text" id="searchterm" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
                         </div>
                         
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Dropdown button
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="#">Action</a>
-                              <a class="dropdown-item" href="#">Another action</a>
-                              <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                        <div class="form-group">
+                            <label for="Numberofsearch">Number of search</label>
+                            <select class="form-control" id="NumberofSearch">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
 
                         <div class="form-group">
                             <label for="Startyear">Start Year</label>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                            <input type="date" id="startyear" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
                           </div>
 
                           <div class="form-group">
                               <label for="Endyear">End Year</label>
-                              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                              <input type="date" id="endyear" class="form-control" type="date" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
                             </div>
+
+                          <div class>
+
+
+                          </div>
 
                       </form>
                   
